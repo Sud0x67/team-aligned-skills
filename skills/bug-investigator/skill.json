@@ -1,0 +1,19 @@
+{
+  "id": "skill-bug-investigator",
+  "slug": "bug-investigator",
+  "name": "Bug Investigator",
+  "displayName": "问题排查",
+  "description": "系统化排查白屏、报错、回归和构建失败，快速定位根因并收敛到最小修复。",
+  "version": "0.1.0",
+  "category": "debugging",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["debugging", "incident", "regression", "verification"],
+  "recommendedTools": ["terminal", "logs", "filesystem", "tests"],
+  "sources": [
+    "https://github.com/MiniMax-AI/skills/tree/main/skills",
+    "https://github.com/vercel-labs/skills"
+  ]
+}
+

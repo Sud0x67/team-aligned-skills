@@ -1,0 +1,19 @@
+{
+  "id": "skill-codebase-onboarding",
+  "slug": "codebase-onboarding",
+  "name": "Codebase Onboarding",
+  "displayName": "代码库上手",
+  "description": "快速理解一个代码库的结构、入口、关键模块和演进路径，帮助新人高效进入上下文。",
+  "version": "0.1.0",
+  "category": "engineering",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["codebase", "architecture", "onboarding", "engineering"],
+  "recommendedTools": ["filesystem", "ripgrep", "terminal"],
+  "sources": [
+    "https://github.com/MiniMax-AI/skills/tree/main/skills",
+    "https://github.com/vercel-labs/skills"
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "id": "skill-ui-refiner",
+  "slug": "ui-refiner",
+  "name": "UI Refiner",
+  "displayName": "界面打磨",
+  "description": "围绕可读性、一致性、间距、层级和状态反馈，提出高质量 UI 打磨建议并推动落地。",
+  "version": "0.1.0",
+  "category": "design",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["ui", "ux", "design", "polish", "figma"],
+  "recommendedTools": ["figma", "screenshot", "filesystem"],
+  "sources": [
+    "https://github.com/MiniMax-AI/skills/tree/main/skills",
+    "https://github.com/vercel-labs/skills"
+  ]
+}
+

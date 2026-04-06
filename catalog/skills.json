@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-04-06T04:56:06.689Z",
+  "count": 5,
+  "skills": [
+    {
+      "id": "skill-bug-investigator",
+      "slug": "bug-investigator",
+      "name": "Bug Investigator",
+      "displayName": "问题排查",
+      "description": "系统化排查白屏、报错、回归和构建失败，快速定位根因并收敛到最小修复。",
+      "version": "0.1.0",
+      "category": "debugging",
+      "tags": [
+        "debugging",
+        "incident",
+        "regression",
+        "verification"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "terminal",
+        "logs",
+        "filesystem",
+        "tests"
+      ],
+      "sources": [
+        "https://github.com/MiniMax-AI/skills/tree/main/skills",
+        "https://github.com/vercel-labs/skills"
+      ],
+      "installPath": "skills/bug-investigator"
+    },
+    {
+      "id": "skill-codebase-onboarding",
+      "slug": "codebase-onboarding",
+      "name": "Codebase Onboarding",
+      "displayName": "代码库上手",
+      "description": "快速理解一个代码库的结构、入口、关键模块和演进路径，帮助新人高效进入上下文。",
+      "version": "0.1.0",
+      "category": "engineering",
+      "tags": [
+        "codebase",
+        "architecture",
+        "onboarding",
+        "engineering"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "ripgrep",
+        "terminal"
+      ],
+      "sources": [
+        "https://github.com/MiniMax-AI/skills/tree/main/skills",
+        "https://github.com/vercel-labs/skills"
+      ],
+      "installPath": "skills/codebase-onboarding"
+    },
+    {
+      "id": "skill-research-brief",
+      "slug": "research-brief",
+      "name": "Research Brief",
+      "displayName": "研究简报",
+      "description": "围绕一个主题快速收集信息，区分事实与判断，并输出可用于决策的简报。",
+      "version": "0.1.0",
+      "category": "research",
+      "tags": [
+        "research",
+        "brief",
+        "summary",
+        "competitive-analysis"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "filesystem",
+        "notes"
+      ],
+      "sources": [
+        "https://github.com/MiniMax-AI/skills/tree/main/skills",
+        "https://github.com/vercel-labs/skills"
+      ],
+      "installPath": "skills/research-brief"
+    },
+    {
+      "id": "skill-task-planner",
+      "slug": "task-planner",
+      "name": "Task Planner",
+      "displayName": "任务规划",
+      "description": "把模糊需求拆成可执行计划，明确目标、约束、阶段、风险和下一步动作。",
+      "version": "0.1.0",
+      "category": "planning",
+      "tags": [
+        "planning",
+        "execution",
+        "roadmap",
+        "breakdown"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "terminal",
+        "todo"
+      ],
+      "sources": [
+        "https://github.com/MiniMax-AI/skills/tree/main/skills",
+        "https://github.com/vercel-labs/skills"
+      ],
+      "installPath": "skills/task-planner"
+    },
+    {
+      "id": "skill-ui-refiner",
+      "slug": "ui-refiner",
+      "name": "UI Refiner",
+      "displayName": "界面打磨",
+      "description": "围绕可读性、一致性、间距、层级和状态反馈，提出高质量 UI 打磨建议并推动落地。",
+      "version": "0.1.0",
+      "category": "design",
+      "tags": [
+        "ui",
+        "ux",
+        "design",
+        "polish",
+        "figma"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "figma",
+        "screenshot",
+        "filesystem"
+      ],
+      "sources": [
+        "https://github.com/MiniMax-AI/skills/tree/main/skills",
+        "https://github.com/vercel-labs/skills"
+      ],
+      "installPath": "skills/ui-refiner"
+    }
+  ]
+}

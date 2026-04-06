@@ -1,0 +1,19 @@
+{
+  "id": "skill-research-brief",
+  "slug": "research-brief",
+  "name": "Research Brief",
+  "displayName": "研究简报",
+  "description": "围绕一个主题快速收集信息，区分事实与判断，并输出可用于决策的简报。",
+  "version": "0.1.0",
+  "category": "research",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["research", "brief", "summary", "competitive-analysis"],
+  "recommendedTools": ["web-search", "filesystem", "notes"],
+  "sources": [
+    "https://github.com/MiniMax-AI/skills/tree/main/skills",
+    "https://github.com/vercel-labs/skills"
+  ]
+}
+

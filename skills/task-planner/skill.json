@@ -1,0 +1,19 @@
+{
+  "id": "skill-task-planner",
+  "slug": "task-planner",
+  "name": "Task Planner",
+  "displayName": "任务规划",
+  "description": "把模糊需求拆成可执行计划，明确目标、约束、阶段、风险和下一步动作。",
+  "version": "0.1.0",
+  "category": "planning",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["planning", "execution", "roadmap", "breakdown"],
+  "recommendedTools": ["filesystem", "terminal", "todo"],
+  "sources": [
+    "https://github.com/MiniMax-AI/skills/tree/main/skills",
+    "https://github.com/vercel-labs/skills"
+  ]
+}
+
