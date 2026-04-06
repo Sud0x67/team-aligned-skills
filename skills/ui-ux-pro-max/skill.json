@@ -1,0 +1,30 @@
+{
+  "id": "skill-ui-ux-pro-max",
+  "slug": "ui-ux-pro-max",
+  "name": "UI UX Pro Max",
+  "displayName": "UI/UX 专业设计助手",
+  "description": "带可搜索设计知识库的高级 UI/UX Skill，覆盖风格、配色、字体、UX 规则、图表类型和多技术栈实现建议。",
+  "version": "0.1.0",
+  "category": "design",
+  "author": "Sud0x67",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": [
+    "ui",
+    "ux",
+    "design-system",
+    "figma",
+    "frontend",
+    "tailwind",
+    "research"
+  ],
+  "recommendedTools": [
+    "python3",
+    "filesystem",
+    "figma",
+    "screenshot"
+  ],
+  "sources": [
+    "/Users/bobo/.codex/skills/ui-ux-pro-max"
+  ]
+}
