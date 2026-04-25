@@ -1,0 +1,19 @@
+{
+  "id": "skill-batch-refactor",
+  "slug": "batch-refactor",
+  "name": "Batch Refactor",
+  "displayName": "批量重构",
+  "description": "用可验证的小批次完成跨文件重命名、API 迁移、模式替换和去重整理。",
+  "version": "0.1.0",
+  "category": "engineering",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["refactor", "migration", "codemod", "ast", "cleanup"],
+  "recommendedTools": ["ripgrep", "ast-grep", "tests", "typecheck"],
+  "sources": [
+    "https://github.com/anthropics/skills",
+    "https://github.com/openai/codex",
+    "https://github.com/kimi-code-ai/kimi-code"
+  ]
+}

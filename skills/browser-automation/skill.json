@@ -1,0 +1,19 @@
+{
+  "id": "skill-browser-automation",
+  "slug": "browser-automation",
+  "name": "Browser Automation",
+  "displayName": "浏览器自动化",
+  "description": "用浏览器自动化验证本地网页、交互流程、截图、控制台错误和视觉回归。",
+  "version": "0.1.0",
+  "category": "verification",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["browser", "playwright", "screenshot", "visual-qa", "e2e"],
+  "recommendedTools": ["browser", "playwright", "terminal", "screenshot"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://playwright.dev/docs/intro",
+    "https://github.com/microsoft/playwright"
+  ]
+}

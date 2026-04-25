@@ -1,0 +1,19 @@
+{
+  "id": "skill-ai-sdk-builder",
+  "slug": "ai-sdk-builder",
+  "name": "AI SDK Builder",
+  "displayName": "AI SDK 构建",
+  "description": "用 Vercel AI SDK 构建流式聊天、工具调用、结构化输出、多模型路由和持久化体验。",
+  "version": "0.1.0",
+  "category": "ai",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["ai-sdk", "chat", "streaming", "tool-calling", "structured-output"],
+  "recommendedTools": ["terminal", "browser", "tests", "web-search"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://ai-sdk.dev/docs",
+    "https://github.com/vercel/ai"
+  ]
+}

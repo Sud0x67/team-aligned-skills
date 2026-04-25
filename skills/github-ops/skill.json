@@ -1,0 +1,19 @@
+{
+  "id": "skill-github-ops",
+  "slug": "github-ops",
+  "name": "GitHub Ops",
+  "displayName": "GitHub 协作",
+  "description": "处理 GitHub issue、PR、review、release 和仓库协作流程，强调可追溯操作与最小权限。",
+  "version": "0.1.0",
+  "category": "engineering",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["github", "pull-request", "issue", "review", "release"],
+  "recommendedTools": ["gh", "git", "filesystem", "web-search"],
+  "sources": [
+    "https://github.com/anthropics/skills",
+    "https://github.com/openai/codex",
+    "https://github.com/vercel-labs/ai"
+  ]
+}

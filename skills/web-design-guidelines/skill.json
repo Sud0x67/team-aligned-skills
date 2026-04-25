@@ -1,0 +1,19 @@
+{
+  "id": "skill-web-design-guidelines",
+  "slug": "web-design-guidelines",
+  "name": "Web Design Guidelines",
+  "displayName": "网页设计指南",
+  "description": "为网站、Web App 和工具界面提供布局、层级、响应式、视觉资产和可用性打磨准则。",
+  "version": "0.1.0",
+  "category": "design",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["web-design", "ui", "ux", "responsive", "accessibility"],
+  "recommendedTools": ["browser", "screenshot", "figma", "filesystem"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://www.w3.org/WAI/WCAG22/quickref/",
+    "https://github.com/anthropics/skills"
+  ]
+}

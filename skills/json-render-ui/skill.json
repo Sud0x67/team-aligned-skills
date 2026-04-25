@@ -1,0 +1,19 @@
+{
+  "id": "skill-json-render-ui",
+  "slug": "json-render-ui",
+  "name": "JSON Render UI",
+  "displayName": "JSON 渲染界面",
+  "description": "把工具调用、结构化输出、事件流和 JSON 数据渲染成清晰可操作的界面。",
+  "version": "0.1.0",
+  "category": "frontend",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["json", "structured-output", "tool-calls", "ui", "rendering"],
+  "recommendedTools": ["browser", "filesystem", "tests"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://ai-sdk.dev/docs",
+    "https://json-schema.org/"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "skill-ai-elements-ui",
+  "slug": "ai-elements-ui",
+  "name": "AI Elements UI",
+  "displayName": "AI 界面组件",
+  "description": "使用 AI Elements 和 shadcn 风格组件构建消息、工具调用、引用、推理状态和输入体验。",
+  "version": "0.1.0",
+  "category": "frontend",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["ai-elements", "chat-ui", "shadcn", "messages", "tool-calls"],
+  "recommendedTools": ["terminal", "browser", "components"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://ai-sdk.dev/elements",
+    "https://ui.shadcn.com/"
+  ]
+}

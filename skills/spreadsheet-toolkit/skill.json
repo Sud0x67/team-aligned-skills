@@ -1,0 +1,18 @@
+{
+  "id": "skill-spreadsheet-toolkit",
+  "slug": "spreadsheet-toolkit",
+  "name": "Spreadsheet Toolkit",
+  "displayName": "表格处理",
+  "description": "分析、清洗、创建和校验 CSV/XLSX 表格，覆盖公式、图表、数据透视和可视化。",
+  "version": "0.1.0",
+  "category": "data",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["xlsx", "csv", "spreadsheet", "analysis", "charts", "validation"],
+  "recommendedTools": ["filesystem", "python", "spreadsheet-renderer"],
+  "sources": [
+    "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+    "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+  ]
+}

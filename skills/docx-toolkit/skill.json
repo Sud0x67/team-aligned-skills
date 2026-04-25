@@ -1,0 +1,18 @@
+{
+  "id": "skill-docx-toolkit",
+  "slug": "docx-toolkit",
+  "name": "DOCX Toolkit",
+  "displayName": "Word 文档处理",
+  "description": "创建、编辑、审阅和导出 Word 文档，覆盖结构、样式、批注、修订和渲染校验。",
+  "version": "0.1.0",
+  "category": "documents",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["docx", "word", "documents", "redline", "comments", "rendering"],
+  "recommendedTools": ["filesystem", "python", "libreoffice", "document-renderer"],
+  "sources": [
+    "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+    "https://github.com/anthropics/skills/tree/main/skills/docx"
+  ]
+}

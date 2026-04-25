@@ -1,0 +1,19 @@
+{
+  "id": "skill-python-project-standards",
+  "slug": "python-project-standards",
+  "name": "Python Project Standards",
+  "displayName": "Python 项目规范",
+  "description": "维护 Python 项目的结构、依赖、测试、类型、格式化和打包约定。",
+  "version": "0.1.0",
+  "category": "engineering",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["python", "pytest", "typing", "packaging", "lint"],
+  "recommendedTools": ["python", "pytest", "ruff", "mypy", "uv"],
+  "sources": [
+    "https://github.com/anthropics/skills",
+    "https://packaging.python.org/",
+    "https://docs.astral.sh/ruff/"
+  ]
+}

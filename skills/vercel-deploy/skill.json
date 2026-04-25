@@ -1,0 +1,19 @@
+{
+  "id": "skill-vercel-deploy",
+  "slug": "vercel-deploy",
+  "name": "Vercel Deploy",
+  "displayName": "Vercel 部署",
+  "description": "处理 Vercel 项目部署、环境变量、日志、域名、预览链接和 CI/CD 排查。",
+  "version": "0.1.0",
+  "category": "deployment",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["vercel", "deploy", "ci", "env", "logs", "domains"],
+  "recommendedTools": ["vercel", "terminal", "browser", "logs"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://vercel.com/docs",
+    "https://github.com/vercel/vercel"
+  ]
+}

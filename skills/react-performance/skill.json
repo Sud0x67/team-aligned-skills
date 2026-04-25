@@ -1,0 +1,19 @@
+{
+  "id": "skill-react-performance",
+  "slug": "react-performance",
+  "name": "React Performance",
+  "displayName": "React 性能优化",
+  "description": "定位和优化 React 渲染、数据获取、bundle、交互延迟和 hydration 性能问题。",
+  "version": "0.1.0",
+  "category": "frontend",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["react", "performance", "profiling", "bundle", "hydration"],
+  "recommendedTools": ["browser", "terminal", "tests", "profiler"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://github.com/vercel-labs/ai",
+    "https://react.dev/learn/react-developer-tools"
+  ]
+}

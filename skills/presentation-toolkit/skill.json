@@ -1,0 +1,18 @@
+{
+  "id": "skill-presentation-toolkit",
+  "slug": "presentation-toolkit",
+  "name": "Presentation Toolkit",
+  "displayName": "演示文稿处理",
+  "description": "创建、编辑、重组和校验 PPTX 演示文稿，强调叙事结构、版式一致性和导出验证。",
+  "version": "0.1.0",
+  "category": "documents",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["pptx", "slides", "presentation", "deck", "rendering", "storytelling"],
+  "recommendedTools": ["filesystem", "python", "slide-renderer", "image-generation"],
+  "sources": [
+    "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+    "https://github.com/anthropics/skills/tree/main/skills/pptx"
+  ]
+}

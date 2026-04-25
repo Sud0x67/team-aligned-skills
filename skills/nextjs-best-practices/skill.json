@@ -1,0 +1,19 @@
+{
+  "id": "skill-nextjs-best-practices",
+  "slug": "nextjs-best-practices",
+  "name": "Next.js Best Practices",
+  "displayName": "Next.js 最佳实践",
+  "description": "构建和调试 Next.js App Router 项目，覆盖路由、缓存、Server Components、Actions 和部署。",
+  "version": "0.1.0",
+  "category": "frontend",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["nextjs", "app-router", "react", "server-components", "cache"],
+  "recommendedTools": ["terminal", "browser", "typecheck", "tests"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://nextjs.org/docs",
+    "https://github.com/vercel/next.js"
+  ]
+}

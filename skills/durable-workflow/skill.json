@@ -1,0 +1,19 @@
+{
+  "id": "skill-durable-workflow",
+  "slug": "durable-workflow",
+  "name": "Durable Workflow",
+  "displayName": "持久工作流",
+  "description": "设计和实现可恢复的长任务、重试、步骤状态、队列、暂停/恢复和幂等执行。",
+  "version": "0.1.0",
+  "category": "backend",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["workflow", "queues", "retry", "idempotency", "durable"],
+  "recommendedTools": ["filesystem", "tests", "database", "logs"],
+  "sources": [
+    "https://vercel.com/docs/agent-resources/skills",
+    "https://vercel.com/docs/workflow",
+    "https://github.com/vercel-labs/ai"
+  ]
+}

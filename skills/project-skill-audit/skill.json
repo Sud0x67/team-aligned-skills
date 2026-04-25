@@ -1,0 +1,19 @@
+{
+  "id": "skill-project-skill-audit",
+  "slug": "project-skill-audit",
+  "name": "Project Skill Audit",
+  "displayName": "Skill 审计",
+  "description": "审查一个 skill 仓库的元数据、入口、来源、触发描述、可维护性和 catalog 一致性。",
+  "version": "0.1.0",
+  "category": "skills",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["skills", "catalog", "audit", "metadata", "quality"],
+  "recommendedTools": ["filesystem", "terminal", "json", "markdown"],
+  "sources": [
+    "https://github.com/anthropics/skills",
+    "https://platform.openai.com/docs",
+    "https://github.com/kimi-code-ai/kimi-code"
+  ]
+}

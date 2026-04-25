@@ -1,0 +1,20 @@
+{
+  "id": "skill-openai-docs-research",
+  "slug": "openai-docs-research",
+  "name": "OpenAI Docs Research",
+  "displayName": "OpenAI 文档研究",
+  "description": "围绕 OpenAI API、模型、SDK 和产品能力进行官方文档优先的调研与实现建议。",
+  "version": "0.1.0",
+  "category": "research",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["openai", "api", "sdk", "models", "docs", "research"],
+  "recommendedTools": ["web-search", "filesystem", "terminal"],
+  "sources": [
+    "https://github.com/openai/openai-cookbook",
+    "https://platform.openai.com/docs",
+    "https://github.com/openai/openai-node",
+    "https://github.com/openai/openai-python"
+  ]
+}

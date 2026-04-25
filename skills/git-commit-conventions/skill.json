@@ -1,0 +1,19 @@
+{
+  "id": "skill-git-commit-conventions",
+  "slug": "git-commit-conventions",
+  "name": "Git Commit Conventions",
+  "displayName": "Git 提交规范",
+  "description": "整理 staged diff、撰写结构化提交说明、保留决策上下文和测试证据。",
+  "version": "0.1.0",
+  "category": "engineering",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["git", "commit", "changelog", "trailers", "review"],
+  "recommendedTools": ["git", "terminal"],
+  "sources": [
+    "https://git-scm.com/docs/git-interpret-trailers",
+    "https://www.conventionalcommits.org/",
+    "https://github.com/openai/codex"
+  ]
+}
