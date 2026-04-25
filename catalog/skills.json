@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-25T13:32:26.127Z",
-  "count": 26,
+  "generatedAt": "2026-04-25T15:17:40.132Z",
+  "count": 27,
   "skills": [
     {
       "id": "skill-ai-elements-ui",
@@ -649,6 +649,46 @@
         "https://github.com/vercel-labs/skills"
       ],
       "installPath": "skills/task-planner"
+    },
+    {
+      "id": "skill-team-aligned-assistant",
+      "slug": "team-aligned-assistant",
+      "name": "TeamAligned Assistant",
+      "displayName": "TeamAligned 助手",
+      "description": "帮助用户理解和使用 TeamAligned，包括首次引导、Provider 配置、Agent 单聊、Team 群聊、Skills、MCP、slash 命令、附件、工作区与通知排障。",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "teamaligned",
+        "assistant",
+        "onboarding",
+        "chat",
+        "skills",
+        "mcp",
+        "workspace",
+        "troubleshooting"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "ripgrep",
+        "terminal",
+        "mcp",
+        "skills"
+      ],
+      "sources": [
+        "team-aligned/README.md",
+        "team-aligned/docs/architecture.md",
+        "team-aligned/docs/chat-interaction-and-orchestration.md",
+        "team-aligned/docs/group-runtime-design.md",
+        "team-aligned/docs/group-execution-mode.md",
+        "team-aligned/docs/skill-registry-design.md",
+        "team-aligned/docs/mcp-registry-design.md",
+        "team-aligned/docs/runtime-and-storage.md",
+        "team-aligned/docs/ui-and-experience.md"
+      ],
+      "installPath": "skills/team-aligned-assistant"
     },
     {
       "id": "skill-ui-refiner",
