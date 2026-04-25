@@ -83,6 +83,29 @@ node scripts/build-catalog.mjs
 - 研究简报
 - UI 打磨
 - 代码库上手
+- PDF 处理
+- Word 文档处理
+- 表格处理
+- 演示文稿处理
+- OpenAI 文档研究
+- GitHub 协作
+- React 性能优化
+- 批量重构
+- Skill 审计
+- Python 项目规范
+- Git 提交规范
+- Next.js 最佳实践
+- AI SDK 构建
+- AI 界面组件
+- 浏览器自动化
+- Vercel 部署
+- 持久工作流
+- JSON 渲染界面
+- 网页设计指南
+- Skill 搜集
 
 这些技能都参考了公开 skills 生态的组织方式，但内容已经按 `TeamAligned` 的本地优先、多 Agent、中文协作场景重写。
 
+## 来源标注
+
+每个 `skill.json` 的 `sources` 字段记录参考来源或本地迁移来源。新增 skill 参考了 GitHub 与官方文档中的公开 Agent Skills 生态，包括 Anthropic Skills、OpenAI/Codex 相关资源、Vercel Agent Resources/Skills、Kimi Code CLI 的 skill 规范，以及各技术栈官方文档。仓库内文本已按 `TeamAligned` 的使用方式做本地化整理，避免把第三方内容整段复制进来。

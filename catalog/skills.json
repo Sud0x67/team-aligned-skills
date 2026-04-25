@@ -1,7 +1,126 @@
 {
-  "generatedAt": "2026-04-06T05:06:35.209Z",
-  "count": 6,
+  "generatedAt": "2026-04-25T13:32:26.127Z",
+  "count": 26,
   "skills": [
+    {
+      "id": "skill-ai-elements-ui",
+      "slug": "ai-elements-ui",
+      "name": "AI Elements UI",
+      "displayName": "AI 界面组件",
+      "description": "使用 AI Elements 和 shadcn 风格组件构建消息、工具调用、引用、推理状态和输入体验。",
+      "version": "0.1.0",
+      "category": "frontend",
+      "tags": [
+        "ai-elements",
+        "chat-ui",
+        "shadcn",
+        "messages",
+        "tool-calls"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "terminal",
+        "browser",
+        "components"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://ai-sdk.dev/elements",
+        "https://ui.shadcn.com/"
+      ],
+      "installPath": "skills/ai-elements-ui"
+    },
+    {
+      "id": "skill-ai-sdk-builder",
+      "slug": "ai-sdk-builder",
+      "name": "AI SDK Builder",
+      "displayName": "AI SDK 构建",
+      "description": "用 Vercel AI SDK 构建流式聊天、工具调用、结构化输出、多模型路由和持久化体验。",
+      "version": "0.1.0",
+      "category": "ai",
+      "tags": [
+        "ai-sdk",
+        "chat",
+        "streaming",
+        "tool-calling",
+        "structured-output"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "terminal",
+        "browser",
+        "tests",
+        "web-search"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://ai-sdk.dev/docs",
+        "https://github.com/vercel/ai"
+      ],
+      "installPath": "skills/ai-sdk-builder"
+    },
+    {
+      "id": "skill-batch-refactor",
+      "slug": "batch-refactor",
+      "name": "Batch Refactor",
+      "displayName": "批量重构",
+      "description": "用可验证的小批次完成跨文件重命名、API 迁移、模式替换和去重整理。",
+      "version": "0.1.0",
+      "category": "engineering",
+      "tags": [
+        "refactor",
+        "migration",
+        "codemod",
+        "ast",
+        "cleanup"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "ripgrep",
+        "ast-grep",
+        "tests",
+        "typecheck"
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills",
+        "https://github.com/openai/codex",
+        "https://github.com/kimi-code-ai/kimi-code"
+      ],
+      "installPath": "skills/batch-refactor"
+    },
+    {
+      "id": "skill-browser-automation",
+      "slug": "browser-automation",
+      "name": "Browser Automation",
+      "displayName": "浏览器自动化",
+      "description": "用浏览器自动化验证本地网页、交互流程、截图、控制台错误和视觉回归。",
+      "version": "0.1.0",
+      "category": "verification",
+      "tags": [
+        "browser",
+        "playwright",
+        "screenshot",
+        "visual-qa",
+        "e2e"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "browser",
+        "playwright",
+        "terminal",
+        "screenshot"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://playwright.dev/docs/intro",
+        "https://github.com/microsoft/playwright"
+      ],
+      "installPath": "skills/browser-automation"
+    },
     {
       "id": "skill-bug-investigator",
       "slug": "bug-investigator",
@@ -58,6 +177,366 @@
       "installPath": "skills/codebase-onboarding"
     },
     {
+      "id": "skill-docx-toolkit",
+      "slug": "docx-toolkit",
+      "name": "DOCX Toolkit",
+      "displayName": "Word 文档处理",
+      "description": "创建、编辑、审阅和导出 Word 文档，覆盖结构、样式、批注、修订和渲染校验。",
+      "version": "0.1.0",
+      "category": "documents",
+      "tags": [
+        "docx",
+        "word",
+        "documents",
+        "redline",
+        "comments",
+        "rendering"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "python",
+        "libreoffice",
+        "document-renderer"
+      ],
+      "sources": [
+        "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+        "https://github.com/anthropics/skills/tree/main/skills/docx"
+      ],
+      "installPath": "skills/docx-toolkit"
+    },
+    {
+      "id": "skill-durable-workflow",
+      "slug": "durable-workflow",
+      "name": "Durable Workflow",
+      "displayName": "持久工作流",
+      "description": "设计和实现可恢复的长任务、重试、步骤状态、队列、暂停/恢复和幂等执行。",
+      "version": "0.1.0",
+      "category": "backend",
+      "tags": [
+        "workflow",
+        "queues",
+        "retry",
+        "idempotency",
+        "durable"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "tests",
+        "database",
+        "logs"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://vercel.com/docs/workflow",
+        "https://github.com/vercel-labs/ai"
+      ],
+      "installPath": "skills/durable-workflow"
+    },
+    {
+      "id": "skill-git-commit-conventions",
+      "slug": "git-commit-conventions",
+      "name": "Git Commit Conventions",
+      "displayName": "Git 提交规范",
+      "description": "整理 staged diff、撰写结构化提交说明、保留决策上下文和测试证据。",
+      "version": "0.1.0",
+      "category": "engineering",
+      "tags": [
+        "git",
+        "commit",
+        "changelog",
+        "trailers",
+        "review"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "git",
+        "terminal"
+      ],
+      "sources": [
+        "https://git-scm.com/docs/git-interpret-trailers",
+        "https://www.conventionalcommits.org/",
+        "https://github.com/openai/codex"
+      ],
+      "installPath": "skills/git-commit-conventions"
+    },
+    {
+      "id": "skill-github-ops",
+      "slug": "github-ops",
+      "name": "GitHub Ops",
+      "displayName": "GitHub 协作",
+      "description": "处理 GitHub issue、PR、review、release 和仓库协作流程，强调可追溯操作与最小权限。",
+      "version": "0.1.0",
+      "category": "engineering",
+      "tags": [
+        "github",
+        "pull-request",
+        "issue",
+        "review",
+        "release"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "gh",
+        "git",
+        "filesystem",
+        "web-search"
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills",
+        "https://github.com/openai/codex",
+        "https://github.com/vercel-labs/ai"
+      ],
+      "installPath": "skills/github-ops"
+    },
+    {
+      "id": "skill-json-render-ui",
+      "slug": "json-render-ui",
+      "name": "JSON Render UI",
+      "displayName": "JSON 渲染界面",
+      "description": "把工具调用、结构化输出、事件流和 JSON 数据渲染成清晰可操作的界面。",
+      "version": "0.1.0",
+      "category": "frontend",
+      "tags": [
+        "json",
+        "structured-output",
+        "tool-calls",
+        "ui",
+        "rendering"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "browser",
+        "filesystem",
+        "tests"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://ai-sdk.dev/docs",
+        "https://json-schema.org/"
+      ],
+      "installPath": "skills/json-render-ui"
+    },
+    {
+      "id": "skill-nextjs-best-practices",
+      "slug": "nextjs-best-practices",
+      "name": "Next.js Best Practices",
+      "displayName": "Next.js 最佳实践",
+      "description": "构建和调试 Next.js App Router 项目，覆盖路由、缓存、Server Components、Actions 和部署。",
+      "version": "0.1.0",
+      "category": "frontend",
+      "tags": [
+        "nextjs",
+        "app-router",
+        "react",
+        "server-components",
+        "cache"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "terminal",
+        "browser",
+        "typecheck",
+        "tests"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://nextjs.org/docs",
+        "https://github.com/vercel/next.js"
+      ],
+      "installPath": "skills/nextjs-best-practices"
+    },
+    {
+      "id": "skill-openai-docs-research",
+      "slug": "openai-docs-research",
+      "name": "OpenAI Docs Research",
+      "displayName": "OpenAI 文档研究",
+      "description": "围绕 OpenAI API、模型、SDK 和产品能力进行官方文档优先的调研与实现建议。",
+      "version": "0.1.0",
+      "category": "research",
+      "tags": [
+        "openai",
+        "api",
+        "sdk",
+        "models",
+        "docs",
+        "research"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "filesystem",
+        "terminal"
+      ],
+      "sources": [
+        "https://github.com/openai/openai-cookbook",
+        "https://platform.openai.com/docs",
+        "https://github.com/openai/openai-node",
+        "https://github.com/openai/openai-python"
+      ],
+      "installPath": "skills/openai-docs-research"
+    },
+    {
+      "id": "skill-pdf-toolkit",
+      "slug": "pdf-toolkit",
+      "name": "PDF Toolkit",
+      "displayName": "PDF 处理",
+      "description": "读取、提取、拆分、合并、渲染和校验 PDF 文件，适合报告、合同、论文和批注审阅。",
+      "version": "0.1.0",
+      "category": "documents",
+      "tags": [
+        "pdf",
+        "documents",
+        "extraction",
+        "rendering",
+        "ocr",
+        "verification"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "terminal",
+        "python",
+        "pdf-renderer",
+        "ocr"
+      ],
+      "sources": [
+        "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+        "https://github.com/anthropics/skills/tree/main/skills/pdf"
+      ],
+      "installPath": "skills/pdf-toolkit"
+    },
+    {
+      "id": "skill-presentation-toolkit",
+      "slug": "presentation-toolkit",
+      "name": "Presentation Toolkit",
+      "displayName": "演示文稿处理",
+      "description": "创建、编辑、重组和校验 PPTX 演示文稿，强调叙事结构、版式一致性和导出验证。",
+      "version": "0.1.0",
+      "category": "documents",
+      "tags": [
+        "pptx",
+        "slides",
+        "presentation",
+        "deck",
+        "rendering",
+        "storytelling"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "python",
+        "slide-renderer",
+        "image-generation"
+      ],
+      "sources": [
+        "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+        "https://github.com/anthropics/skills/tree/main/skills/pptx"
+      ],
+      "installPath": "skills/presentation-toolkit"
+    },
+    {
+      "id": "skill-project-skill-audit",
+      "slug": "project-skill-audit",
+      "name": "Project Skill Audit",
+      "displayName": "Skill 审计",
+      "description": "审查一个 skill 仓库的元数据、入口、来源、触发描述、可维护性和 catalog 一致性。",
+      "version": "0.1.0",
+      "category": "skills",
+      "tags": [
+        "skills",
+        "catalog",
+        "audit",
+        "metadata",
+        "quality"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "terminal",
+        "json",
+        "markdown"
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills",
+        "https://platform.openai.com/docs",
+        "https://github.com/kimi-code-ai/kimi-code"
+      ],
+      "installPath": "skills/project-skill-audit"
+    },
+    {
+      "id": "skill-python-project-standards",
+      "slug": "python-project-standards",
+      "name": "Python Project Standards",
+      "displayName": "Python 项目规范",
+      "description": "维护 Python 项目的结构、依赖、测试、类型、格式化和打包约定。",
+      "version": "0.1.0",
+      "category": "engineering",
+      "tags": [
+        "python",
+        "pytest",
+        "typing",
+        "packaging",
+        "lint"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "python",
+        "pytest",
+        "ruff",
+        "mypy",
+        "uv"
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills",
+        "https://packaging.python.org/",
+        "https://docs.astral.sh/ruff/"
+      ],
+      "installPath": "skills/python-project-standards"
+    },
+    {
+      "id": "skill-react-performance",
+      "slug": "react-performance",
+      "name": "React Performance",
+      "displayName": "React 性能优化",
+      "description": "定位和优化 React 渲染、数据获取、bundle、交互延迟和 hydration 性能问题。",
+      "version": "0.1.0",
+      "category": "frontend",
+      "tags": [
+        "react",
+        "performance",
+        "profiling",
+        "bundle",
+        "hydration"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "browser",
+        "terminal",
+        "tests",
+        "profiler"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://github.com/vercel-labs/ai",
+        "https://react.dev/learn/react-developer-tools"
+      ],
+      "installPath": "skills/react-performance"
+    },
+    {
       "id": "skill-research-brief",
       "slug": "research-brief",
       "name": "Research Brief",
@@ -83,6 +562,66 @@
         "https://github.com/vercel-labs/skills"
       ],
       "installPath": "skills/research-brief"
+    },
+    {
+      "id": "skill-skill-finder",
+      "slug": "skill-finder",
+      "name": "Skill Finder",
+      "displayName": "Skill 搜集",
+      "description": "从公开仓库和本地目录搜集、筛选、归档和本地化 Agent skill，并记录来源。",
+      "version": "0.1.0",
+      "category": "skills",
+      "tags": [
+        "skills",
+        "registry",
+        "github",
+        "catalog",
+        "curation"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "git",
+        "filesystem",
+        "json"
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills",
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://github.com/kimi-code-ai/kimi-code",
+        "https://github.com/openai/codex"
+      ],
+      "installPath": "skills/skill-finder"
+    },
+    {
+      "id": "skill-spreadsheet-toolkit",
+      "slug": "spreadsheet-toolkit",
+      "name": "Spreadsheet Toolkit",
+      "displayName": "表格处理",
+      "description": "分析、清洗、创建和校验 CSV/XLSX 表格，覆盖公式、图表、数据透视和可视化。",
+      "version": "0.1.0",
+      "category": "data",
+      "tags": [
+        "xlsx",
+        "csv",
+        "spreadsheet",
+        "analysis",
+        "charts",
+        "validation"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "filesystem",
+        "python",
+        "spreadsheet-renderer"
+      ],
+      "sources": [
+        "https://github.com/openai/codex/tree/main/codex-rs/core/prompt.md",
+        "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+      ],
+      "installPath": "skills/spreadsheet-toolkit"
     },
     {
       "id": "skill-task-planner",
@@ -168,6 +707,67 @@
         "/Users/bobo/.codex/skills/ui-ux-pro-max"
       ],
       "installPath": "skills/ui-ux-pro-max"
+    },
+    {
+      "id": "skill-vercel-deploy",
+      "slug": "vercel-deploy",
+      "name": "Vercel Deploy",
+      "displayName": "Vercel 部署",
+      "description": "处理 Vercel 项目部署、环境变量、日志、域名、预览链接和 CI/CD 排查。",
+      "version": "0.1.0",
+      "category": "deployment",
+      "tags": [
+        "vercel",
+        "deploy",
+        "ci",
+        "env",
+        "logs",
+        "domains"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "vercel",
+        "terminal",
+        "browser",
+        "logs"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://vercel.com/docs",
+        "https://github.com/vercel/vercel"
+      ],
+      "installPath": "skills/vercel-deploy"
+    },
+    {
+      "id": "skill-web-design-guidelines",
+      "slug": "web-design-guidelines",
+      "name": "Web Design Guidelines",
+      "displayName": "网页设计指南",
+      "description": "为网站、Web App 和工具界面提供布局、层级、响应式、视觉资产和可用性打磨准则。",
+      "version": "0.1.0",
+      "category": "design",
+      "tags": [
+        "web-design",
+        "ui",
+        "ux",
+        "responsive",
+        "accessibility"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "browser",
+        "screenshot",
+        "figma",
+        "filesystem"
+      ],
+      "sources": [
+        "https://vercel.com/docs/agent-resources/skills",
+        "https://www.w3.org/WAI/WCAG22/quickref/",
+        "https://github.com/anthropics/skills"
+      ],
+      "installPath": "skills/web-design-guidelines"
     }
   ]
 }
