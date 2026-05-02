@@ -1,0 +1,20 @@
+{
+  "id": "skill-stock-factor-analysis",
+  "slug": "stock-factor-analysis",
+  "name": "Stock Factor Analysis",
+  "displayName": "股票因子分析",
+  "description": "用价值、质量、成长、动量、风险和情绪等因子对股票或观察名单做筛选、排序和驱动拆解。",
+  "version": "0.1.0",
+  "category": "finance",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["stocks", "factors", "screening", "ranking", "quantitative-finance"],
+  "recommendedTools": ["spreadsheet", "python", "web-search", "filesystem"],
+  "sources": [
+    "https://github.com/AI4Finance-Foundation/FinRL",
+    "https://github.com/AI4Finance-Foundation/FinRL-Meta",
+    "https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading"
+  ]
+}
+

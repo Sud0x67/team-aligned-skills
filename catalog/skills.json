@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-25T15:17:40.132Z",
-  "count": 27,
+  "generatedAt": "2026-05-02T18:09:31.783Z",
+  "count": 33,
   "skills": [
     {
       "id": "skill-ai-elements-ui",
@@ -237,6 +237,36 @@
       "installPath": "skills/durable-workflow"
     },
     {
+      "id": "skill-equity-research-brief",
+      "slug": "equity-research-brief",
+      "name": "Equity Research Brief",
+      "displayName": "个股研究简报",
+      "description": "基于公开资料整理个股研究简报，覆盖财报、业务驱动、估值、催化剂、风险和待验证假设。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "equity-research",
+        "earnings",
+        "valuation",
+        "financial-analysis"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "browser",
+        "spreadsheet",
+        "notes"
+      ],
+      "sources": [
+        "https://github.com/chase-manning/ai-hedge-fund",
+        "https://github.com/riccardone/ai-hedge-fund-net",
+        "https://github.com/The-Swarm-Corporation/AutoHedge"
+      ],
+      "installPath": "skills/equity-research-brief"
+    },
+    {
       "id": "skill-git-commit-conventions",
       "slug": "git-commit-conventions",
       "name": "Git Commit Conventions",
@@ -414,6 +444,36 @@
         "https://github.com/anthropics/skills/tree/main/skills/pdf"
       ],
       "installPath": "skills/pdf-toolkit"
+    },
+    {
+      "id": "skill-portfolio-risk-review",
+      "slug": "portfolio-risk-review",
+      "name": "Portfolio Risk Review",
+      "displayName": "组合风险复核",
+      "description": "复核股票组合或观察名单的集中度、相关性、回撤、流动性、场景暴露和监控触发条件。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "portfolio",
+        "risk-management",
+        "scenario-analysis",
+        "position-sizing"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "spreadsheet",
+        "python",
+        "web-search",
+        "notes"
+      ],
+      "sources": [
+        "https://github.com/The-Swarm-Corporation/AutoHedge",
+        "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+        "https://github.com/AI4Finance-Foundation/FinRL"
+      ],
+      "installPath": "skills/portfolio-risk-review"
     },
     {
       "id": "skill-presentation-toolkit",
@@ -624,6 +684,94 @@
       "installPath": "skills/spreadsheet-toolkit"
     },
     {
+      "id": "skill-stock-agent-debate",
+      "slug": "stock-agent-debate",
+      "name": "Stock Agent Debate",
+      "displayName": "股票多视角辩论",
+      "description": "用基本面、估值、技术面、宏观、情绪和风险等视角组织股票研究辩论，并输出有证据权重的综合判断。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "multi-agent",
+        "investment-committee",
+        "equity-research",
+        "risk"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "browser",
+        "spreadsheet",
+        "notes"
+      ],
+      "sources": [
+        "https://github.com/chase-manning/ai-hedge-fund",
+        "https://github.com/riccardone/ai-hedge-fund-net",
+        "https://github.com/The-Swarm-Corporation/AutoHedge"
+      ],
+      "installPath": "skills/stock-agent-debate"
+    },
+    {
+      "id": "skill-stock-factor-analysis",
+      "slug": "stock-factor-analysis",
+      "name": "Stock Factor Analysis",
+      "displayName": "股票因子分析",
+      "description": "用价值、质量、成长、动量、风险和情绪等因子对股票或观察名单做筛选、排序和驱动拆解。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "factors",
+        "screening",
+        "ranking",
+        "quantitative-finance"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "spreadsheet",
+        "python",
+        "web-search",
+        "filesystem"
+      ],
+      "sources": [
+        "https://github.com/AI4Finance-Foundation/FinRL",
+        "https://github.com/AI4Finance-Foundation/FinRL-Meta",
+        "https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading"
+      ],
+      "installPath": "skills/stock-factor-analysis"
+    },
+    {
+      "id": "skill-stock-value-analyzer",
+      "slug": "stock-value-analyzer",
+      "name": "Stock Value Analyzer",
+      "displayName": "股票价值分析器",
+      "description": "基于“三好原则”评估股票中长期价值，强制执行多信源数据校验、近 30 天事件扫描、估值陷阱检查和交卷前自检。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "value-investing",
+        "equity-research",
+        "valuation",
+        "data-verification"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "web-search",
+        "browser",
+        "spreadsheet",
+        "notes"
+      ],
+      "sources": [
+        "https://github.com/FunnyKun/stock-value-analyzer"
+      ],
+      "installPath": "skills/stock-value-analyzer"
+    },
+    {
       "id": "skill-task-planner",
       "slug": "task-planner",
       "name": "Task Planner",
@@ -689,6 +837,36 @@
         "team-aligned/docs/ui-and-experience.md"
       ],
       "installPath": "skills/team-aligned-assistant"
+    },
+    {
+      "id": "skill-technical-backtest",
+      "slug": "technical-backtest",
+      "name": "Technical Backtest",
+      "displayName": "技术策略回测",
+      "description": "为技术指标或规则型股票策略设计可复现回测，检查数据泄漏、交易成本、基准、回撤和参数敏感性。",
+      "version": "0.1.0",
+      "category": "finance",
+      "tags": [
+        "stocks",
+        "backtesting",
+        "technical-analysis",
+        "trading-strategy",
+        "risk"
+      ],
+      "author": "TeamAligned",
+      "entry": "SKILL.md",
+      "recommendedTools": [
+        "python",
+        "spreadsheet",
+        "filesystem",
+        "browser"
+      ],
+      "sources": [
+        "https://github.com/AI4Finance-Foundation/FinRL",
+        "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+        "https://github.com/Jung132914/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020"
+      ],
+      "installPath": "skills/technical-backtest"
     },
     {
       "id": "skill-ui-refiner",

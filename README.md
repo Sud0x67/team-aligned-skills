@@ -103,6 +103,12 @@ node scripts/build-catalog.mjs
 - JSON 渲染界面
 - 网页设计指南
 - Skill 搜集
+- 个股研究简报
+- 股票因子分析
+- 技术策略回测
+- 组合风险复核
+- 股票多视角辩论
+- 股票价值分析器
 
 这些技能都参考了公开 skills 生态的组织方式，但内容已经按 `TeamAligned` 的本地优先、多 Agent、中文协作场景重写。
 

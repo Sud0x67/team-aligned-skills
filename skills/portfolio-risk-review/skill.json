@@ -1,0 +1,20 @@
+{
+  "id": "skill-portfolio-risk-review",
+  "slug": "portfolio-risk-review",
+  "name": "Portfolio Risk Review",
+  "displayName": "组合风险复核",
+  "description": "复核股票组合或观察名单的集中度、相关性、回撤、流动性、场景暴露和监控触发条件。",
+  "version": "0.1.0",
+  "category": "finance",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["stocks", "portfolio", "risk-management", "scenario-analysis", "position-sizing"],
+  "recommendedTools": ["spreadsheet", "python", "web-search", "notes"],
+  "sources": [
+    "https://github.com/The-Swarm-Corporation/AutoHedge",
+    "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+    "https://github.com/AI4Finance-Foundation/FinRL"
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "id": "skill-stock-value-analyzer",
+  "slug": "stock-value-analyzer",
+  "name": "Stock Value Analyzer",
+  "displayName": "股票价值分析器",
+  "description": "基于“三好原则”评估股票中长期价值，强制执行多信源数据校验、近 30 天事件扫描、估值陷阱检查和交卷前自检。",
+  "version": "0.1.0",
+  "category": "finance",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["stocks", "value-investing", "equity-research", "valuation", "data-verification"],
+  "recommendedTools": ["web-search", "browser", "spreadsheet", "notes"],
+  "sources": [
+    "https://github.com/FunnyKun/stock-value-analyzer"
+  ]
+}
+

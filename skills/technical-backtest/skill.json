@@ -1,0 +1,20 @@
+{
+  "id": "skill-technical-backtest",
+  "slug": "technical-backtest",
+  "name": "Technical Backtest",
+  "displayName": "技术策略回测",
+  "description": "为技术指标或规则型股票策略设计可复现回测，检查数据泄漏、交易成本、基准、回撤和参数敏感性。",
+  "version": "0.1.0",
+  "category": "finance",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["stocks", "backtesting", "technical-analysis", "trading-strategy", "risk"],
+  "recommendedTools": ["python", "spreadsheet", "filesystem", "browser"],
+  "sources": [
+    "https://github.com/AI4Finance-Foundation/FinRL",
+    "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+    "https://github.com/Jung132914/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020"
+  ]
+}
+
