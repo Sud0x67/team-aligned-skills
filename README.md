@@ -103,6 +103,7 @@ node scripts/build-catalog.mjs
 - JSON 渲染界面
 - 网页设计指南
 - Skill 搜集
+- Draw.io 专业图表
 - 个股研究简报
 - 股票因子分析
 - 技术策略回测
