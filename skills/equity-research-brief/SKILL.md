@@ -39,10 +39,14 @@ description: Build a decision-ready public-equity research brief from filings, e
 - Open questions
 - Not financial advice disclaimer
 
+## Resources
+
+- `templates/research-memo.md`: Use when the user wants a complete equity research memo.
+- `references/source-quality.md`: Use when choosing or explaining source hierarchy and data freshness.
+
 ## Guardrails
 
 - Do not claim real-time prices, analyst estimates, or latest filings without checking current sources.
 - Do not produce personalized buy/sell advice unless the user explicitly asks for a hypothetical framework; even then, frame it as research support, not financial advice.
 - For forward estimates, show assumptions and sensitivity ranges.
 - For uncertain data, say what is missing rather than filling gaps with guesswork.
-

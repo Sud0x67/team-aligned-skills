@@ -37,10 +37,14 @@ description: Review portfolio, watchlist, or proposed stock basket risk using ex
 - Suggested risk controls
 - Unknowns and missing data
 
+## Resources
+
+- `templates/risk-review.md`: Use when producing a full portfolio risk memo.
+- `references/risk-checklist.md`: Use when identifying common concentration and scenario risks.
+
 ## Guardrails
 
 - Do not infer the user's personal risk tolerance, objectives, tax status, or constraints unless provided.
 - Do not treat diversification by ticker count as real diversification.
 - Flag stale, missing, or mismatched price data before calculating risk.
 - Prefer transparent scenario analysis over false precision.
-

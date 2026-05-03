@@ -39,10 +39,14 @@ description: Design and verify technical-analysis or rules-based stock strategy 
 - Failure modes
 - Reproducibility notes
 
+## Resources
+
+- `templates/backtest-report.md`: Use when reporting strategy test results.
+- `references/backtest-bias-checklist.md`: Use before trusting a strategy result.
+
 ## Guardrails
 
 - Never evaluate a strategy only on in-sample optimized parameters.
 - Avoid claiming profitability without transaction costs and drawdown analysis.
 - Treat tiny sample sizes, high turnover, illiquid names, and extreme parameter sensitivity as major warnings.
 - If using notebooks or scripts, keep inputs reproducible and save generated artifacts with clear names.
-

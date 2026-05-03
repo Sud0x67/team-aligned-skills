@@ -41,10 +41,14 @@ description: Run a structured multi-perspective stock analysis debate across fun
 - Decision or research next steps
 - Risks, missing data, and disclaimer
 
+## Resources
+
+- `templates/debate-memo.md`: Use when producing an investment committee style debate memo.
+- `references/lens-prompts.md`: Use when assigning or checking analysis lenses.
+
 ## Guardrails
 
 - Do not impersonate real investors or claim to follow their proprietary methods. Use generic investing lenses instead.
 - Do not let an LLM-only debate substitute for market data, filings, or calculations.
 - Do not output automated execution instructions unless the user explicitly asks for a separate implementation workflow.
 - Keep the final synthesis clear about confidence and uncertainty.
-

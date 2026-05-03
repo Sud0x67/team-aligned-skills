@@ -1,0 +1,20 @@
+{
+  "id": "skill-drawio-pro",
+  "slug": "drawio-pro",
+  "name": "Draw.io Pro",
+  "displayName": "Draw.io 专业图表",
+  "description": "从自然语言生成专业 draw.io 图表，支持架构图、ERD、UML、时序图、流程图和 ML 模型图，并导出 PNG/SVG/PDF/JPG。",
+  "version": "0.1.0",
+  "category": "design",
+  "author": "TeamAligned",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "tags": ["drawio", "diagram", "flowchart", "architecture", "uml", "erd", "visualization"],
+  "recommendedTools": ["filesystem", "terminal", "image-viewer"],
+  "sources": [
+    "https://findskill.com/clawhub/agents365-ai/drawio-pro-skill",
+    "https://github.com/Agents365-ai/drawio-skill",
+    "https://skilld.dev/skills/agents365-ai/drawio-skill/drawio"
+  ]
+}
+

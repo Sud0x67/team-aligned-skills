@@ -48,6 +48,8 @@ team-aligned-skills/
 - `examples/`
 - `scripts/`
 
+新增或迁移 skill 时，如果上游能力依赖报告骨架、输出格式、检查清单、领域规则或操作手册，必须同步提供必要的 `templates/` 和 `references/`，并在 `SKILL.md` 中写清楚何时读取这些资源。
+
 ## 元数据规范
 
 `skill.json` 是 TeamAligned 读取和展示的主要入口，建议至少包含：

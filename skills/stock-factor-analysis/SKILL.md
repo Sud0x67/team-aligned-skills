@@ -45,9 +45,13 @@ description: Analyze stocks or watchlists using factor frameworks such as value,
 - Sensitivity to factor weights
 - Caveats and next checks
 
+## Resources
+
+- `templates/factor-scorecard.md`: Use when producing a ranked screen or watchlist comparison.
+- `references/factor-data-checks.md`: Use when normalizing factors or explaining missing/stale data.
+
 ## Guardrails
 
 - Do not mix trailing, forward, and point-in-time data without labeling them.
 - Do not compare banks, insurers, REITs, and industrial companies with the same accounting ratios unless sector adjustments are made.
 - Treat sentiment and LLM-generated scores as soft evidence unless grounded in source excerpts and timestamps.
-
